@@ -1,0 +1,141 @@
+:root{
+    --globalFont: 'Montserrat';
+    --gutter: 40px;
+    --componentsGap: 24px;
+
+    --colorLilly: #ED1D24;
+}
+
+.navLogo{
+    height: 30px;
+    margin: 0px 40px 0px var(--gutter);
+}
+
+.bodyTitle{
+  height: 24px;
+  width: 176px;
+  margin: var(--componentsGap) 40px 0px var(--gutter);
+  color: #333333;
+  font-family: var(--globalFont);
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.inputText{
+  box-sizing: border-box;
+  height: 32px;
+  width: 120px;
+  margin: var(--componentsGap) 40px 0px var(--gutter);
+  padding: 0px 0px 0px 12px;
+  border: 0.5px solid #343434;
+  background-color: #FFFFFF;
+
+  color: #343434;
+  font-family: var(--globalFont);
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 19px;
+}
+
+.inputSubmit{
+  height: 32px;
+  width: 80px;
+  background-color: #ED1D24;
+  border: none;
+
+  color: #FFFFFF;
+  font-family: var(--globalFont);
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 19px;
+  text-align: center;
+}
+
+.uc{
+   margin: var(--componentsGap) 40px 0px var(--gutter);
+}
+
+.xAxis{
+  height: 18px;
+  width: 50px;
+  color: #343434;
+  font-family: var(--globalFont);
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 18px;
+  text-align: center;
+}
+
+.yAxis{
+  height: 18px;
+  width: 50px;
+  color: #343434;
+  font-family: var(--globalFont);
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 18px;
+  text-align: right;
+}
+
+.legend{
+  height: 19px;
+  width: 105px;
+  color: #343434;
+  font-family: var(--globalFont);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 19px;
+}
+
+.line {
+      fill: none;
+      stroke: #4A4A4A;
+      stroke-width: 2px;
+      stroke-dasharray: 2px, 2px;
+}
+
+.tooltip {
+    box-sizing: border-box;
+    height: 100px;
+    width: 260px;
+    border: 0.5px solid #4A4A4A;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5)
+
+    color: #333333;
+    font-family: var(--globalFont);
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 24px;
+
+    padding: 12px 12px 12px 12px;
+    align-items: left;
+    opacity: 0.95;
+    position: absolute;
+    z-index: 20;
+    visibility: hidden;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}

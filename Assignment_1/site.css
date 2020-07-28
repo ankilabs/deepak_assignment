@@ -1,0 +1,141 @@
+:root{
+    --globalFont: 'Montserrat';
+    --gutter: 40px;
+    --componentsGap: 24px;
+
+    --colorLilly: #ED1D24;
+}
+
+.uc{
+   margin: var(--componentsGap) 0px 0px var(--gutter);
+  float: left;
+}
+
+.navLogo{
+    height: 30px;
+    margin: 0px 40px 0px var(--gutter);
+}
+
+.bodyTitle{
+  height: 24px;
+  width: 176px;
+  margin: var(--componentsGap) 40px 0px var(--gutter);
+  color: #333333;
+  font-family: var(--globalFont);
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.inputSubmit{
+  height: 32px;
+  width: 120px;
+  margin: var(--componentsGap) 40px 0px var(--gutter);
+  background-color: #ED1D24;
+  border: none;
+
+  color: #FFFFFF;
+  font-family: var(--globalFont);
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 19px;
+  text-align: center;
+}
+
+.box{
+  stroke: #4A4A4A;
+  stroke-width: 1px;
+  fill: #FFFFFF;
+  padding: 8px, 8px, 8px, 8px;
+}
+
+.image{
+  height: 584px;
+  width: 584px;
+  object-fit: fill || contain || cover || none || scale-down;
+}
+
+.tooltip {
+  height: 24px;
+  width: 180px;
+  background-color: black;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+  opacity: 0.8;
+  visibility: hidden;
+}
+
+.tooltipText{
+  height: 15px;
+  color: #FFFFFF;
+  font-family: var(--globalFont);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 15px;
+  padding-left: 8px;
+}
+
+.textBold{
+  margin: 4px 0px 0px 0px);
+  height: 18px;
+  color: #343434;
+  font-family: var(--globalFont);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+.textRegular {
+  margin: 4px 0px 0px 0px);
+  height: 18px;
+  color: #343434;
+  font-family: var(--globalFont);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+.textItalic {
+  height: 15px;
+  width: 90px;
+  color: #343434;
+  font-family: var(--globalFont);
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 15px;
+}
+
+.textRegular12{
+  height: 15px;
+  width: 41px;
+  color: #343434;
+  font-family: var(--globalFont);
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 15px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
