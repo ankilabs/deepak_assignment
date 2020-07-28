@@ -19,3 +19,7 @@ Requirements
 5.  Display a red dot on top of the image. - DONE
 
 6.  Hovering over the point should display the description - DONE
+
+Created a High-Fidelity prototype before developing. 
+Link for the same: https://invis.io/KNY7AIUVC5E 
+password: EL123
