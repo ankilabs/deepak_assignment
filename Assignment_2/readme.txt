@@ -7,4 +7,4 @@ Requirements
 
 2.  A hover effect should display stock details, including open, close, high, and low. - DONE
 
-3.  Data should be fetched from a remote API. - NOT ATTEMPTED
+3.  Data should be fetched from a remote API. - NOT ATTEMPTED, have used static csv file share_data.csv

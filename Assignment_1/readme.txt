@@ -12,7 +12,7 @@ Requirements
 3.  Click on the image and enter a description of the point.
     A dialog box should pop up to all the user to enter a description. - NOT ATTEMPTED
  
-4.  Display a list of all created points and descriptions.  - DONE
+4.  Display a list of all created points and descriptions.  - DONE, have used a static csv file to fetch data
     The list of points should show their (x, y) position and the description that was entered by the user.  - DONE
     If this list grows beyond the vertical size of the page, the list should scroll without scrolling the entire screen. - NOT ATTEMPTED
 
