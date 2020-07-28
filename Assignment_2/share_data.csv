@@ -1,4 +1,4 @@
-Symbol,Series,Date,Prev Close,Open,High,Low,Last Price,Close,Average Price,Total Traded Quantity,Turnover,No. of Trades,Deliverable Qty,% Dly Qt to Traded Qty
+Symbol,Series,Date,PrevClose,Open,High,Low,Last Price,Close,Average Price,Total Traded Quantity,Turnover,No. of Trades,Deliverable Qty,% Dly Qt to Traded Qty
 IDEA,EQ,01/07/20,10.6,10.4,10.75,10.05,10.1,10.15,10.3,434164889,4470142870,285656,138874853,31.99
 IDEA,EQ,02/07/20,10.15,10.2,10.45,9.75,10.05,10.05,10.1,369250291,3728337949,256078,113452387,30.73
 IDEA,EQ,03/07/20,10.05,10.1,10.25,9.85,10.05,10,10.04,262034228,2631447130,169302,68206349,26.03

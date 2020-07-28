@@ -15,7 +15,7 @@ let uc = d3.select("#container").append("svg").attr("width", canvasW).attr("heig
 function chart(data)
 {
     // Convert data types and create arrays
-    data.forEach(d=> { d.Close=+d.Close; d.Open=+d.Open; d.High=+d.High; d.Low=+d.Low; d.Date=dateParser(d.Date); return d;});
+    data.forEach(d=> { d.Close=+d.Close; d.PrevClose=+d.PrevClose; d.Open=+d.Open; d.High=+d.High; d.Low=+d.Low; d.Date=dateParser(d.Date); return d;});
     let dateArray = []; data.map(d =>dateArray.push(d.Date));
     let closeArray = []; data.map(d=>closeArray.push(d.Close));
     let lowArray = []; data.map(d=>lowArray.push(d.Low)), min = d3.min(lowArray);
@@ -59,7 +59,7 @@ function chart(data)
     for(i=0;i<lineBand.length;i++){
         uc.append("path").data([lineBand[i]])
             .attr("transform", "translate("+ 90 +"," + 0 + ")").attr("d", linePath)
-            .attr("stroke",(d)=>{ if(data[i].Close >= data[i].Open){return green;}else{return red;}}).attr("stroke-width",widthBand);}
+            .attr("stroke",(d)=>{ if(data[i].Close >= data[i].PrevClose){return green;}else{return red;}}).attr("stroke-width",widthBand);}
 
     //Tooltip
     let tooltip = d3.select("body").append("div").attr("class", "tooltip");
@@ -81,5 +81,5 @@ function chart(data)
         .attr("transform", "translate("+84+"," + yPosition + ")")
         .attr("x", (d,i)=>xScale(dateArray[i])).attr("y", (d,i)=>yScale(closeArray[i]))
         .attr("width",12).attr("height",12)
-        .attr("fill",(d,i)=>{ if(data[i].Close >= data[i].Open){ return green; } else { return red; } }).attr("stroke","white");
+        .attr("fill",(d,i)=>{ if(data[i].Close >= data[i].PrevClose){ return green; } else { return red; } }).attr("stroke","white");
 }
